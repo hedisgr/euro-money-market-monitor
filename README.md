@@ -1,5 +1,7 @@
 # Euro Money Market Monitor
 
+Link to the dashboard : https://euro-money-market-monitor-h5yzaw4koipwcv3thmjqua.streamlit.app/
+
 ## Overview
 
 This project is an interactive dashboard built with **Python**,
