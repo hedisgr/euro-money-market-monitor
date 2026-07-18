@@ -315,12 +315,12 @@ st.markdown(
 
 # Define the local paths used to load the ECB datasets.
 BASE_DIR = Path(__file__).resolve().parent
-ESTR_PATH = BASE_DIR / "data/raw/market_rates/estr.csv"
-DFR_PATH = BASE_DIR / "data/raw/market_rates/dfr.csv"
+ESTR_PATH = BASE_DIR / "Data/raw/market_rates/estr.csv"
+DFR_PATH = BASE_DIR / "Data/raw/market_rates/dfr.csv"
 
-EXCESS_LIQUIDITY_PATH = BASE_DIR / "data/raw/excess_liquidity/official_excess_liquidity.csv"
-EXCESS_WITHOUT_DEPOSIT_PATH = BASE_DIR / "data/raw/excess_liquidity/excess_reserves.csv"
-INSTITUTIONS_DEPOSIT_PATH = BASE_DIR / "data/raw/excess_liquidity/deposit_facility_balances.csv"
+EXCESS_LIQUIDITY_PATH = BASE_DIR / "Data/raw/excess_liquidity/official_excess_liquidity.csv"
+EXCESS_WITHOUT_DEPOSIT_PATH = BASE_DIR / "Data/raw/excess_liquidity/excess_reserves.csv"
+INSTITUTIONS_DEPOSIT_PATH = BASE_DIR / "Data/raw/excess_liquidity/deposit_facility_balances.csv"
 
 @st.cache_data(show_spinner="Loading and preparing ECB data…")
 def prepare_data():
